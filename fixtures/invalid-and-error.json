@@ -1,0 +1,11 @@
+[
+  {
+    "raw_response": "not JSON",
+    "model_returned": "fixture-auditor-v1",
+    "input_tokens": null,
+    "output_tokens": null,
+    "latency_seconds": 0.01,
+    "estimated_cost": null
+  },
+  {"error": "Simulated provider timeout"}
+]

@@ -1,0 +1,121 @@
+{
+  "iteration": 3,
+  "date": "2026-09-28",
+  "mode": "Default",
+  "codex_app_version": null,
+  "prompt_sha256": "86a7b78b0c4727b0663592ed5f7768e2b48604294d183970fede065aca1bf539",
+  "baseline_evidence": "Operator reports 142 tests passing; no tests rerun in this session",
+  "generation_execution": "No project, package-manager, LXD, provider API or pytest execution",
+  "iteration3_tests": "NOT RUN",
+  "sdk_packages": {
+    "openai": "3.20.0",
+    "google-genai": "2.25.0"
+  },
+  "changed_existing_files": [
+    "docs/vibe-coding.md",
+    "README.md",
+    "vice_sysadmin/logger.py",
+    "vice_sysadmin/orchestrator.py",
+    "vice_sysadmin/schemas.py",
+    "vice_sysadmin/structured.py",
+    "release-manifest.json"
+  ],
+  "preserved_test_and_task_files": [
+    {
+      "name": "tasks/README.md",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t1-1-install-configure-service.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t1-2-restart-failed-service.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t2-1-create-restricted-user.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t2-2-fix-open-permissions.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t2-3-fix-sudoers-entry.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t3-1-fix-config-syntax-error.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t3-2-diagnose-port-conflict.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t4-1-summarize-access-log.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t4-2-auth-log-review.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t4-3-error-log-analysis.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t5-1-clean-tmp.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t5-2-free-disk-space.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t5-3-restart-failing-service.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t5-4-remove-unused-user.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t6-1-open-port.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t6-2-block-ip.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t6-3-harden-ports.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tasks/t6-4-diagnose-unreachable.yaml",
+      "unchanged": true
+    },
+    {
+      "name": "tests/fixtures/audit.json",
+      "unchanged": true
+    },
+    {
+      "name": "tests/test_foundations.py",
+      "unchanged": true
+    },
+    {
+      "name": "tests/test_iteration2_units.py",
+      "unchanged": true
+    },
+    {
+      "name": "tests/test_orchestrator.py",
+      "unchanged": true
+    },
+    {
+      "name": "tests/test_tasks.py",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "raw_response": "{\"command\":\"id\",\"reasoning\":\"Fixed smoke-test step.\",\"estimated_risk\":0,\"task_completed\":false,\"needs_elevation\":false}",
+    "model_returned": "fixture-proposer-v1",
+    "model_version_returned": null,
+    "input_tokens": 20,
+    "output_tokens": 20,
+    "latency_seconds": 0,
+    "estimated_cost": 0
+  },
+  {
+    "raw_response": "{\"command\":\"\",\"reasoning\":\"Task completion is a claim for harness verification.\",\"estimated_risk\":0,\"task_completed\":true,\"needs_elevation\":false}",
+    "model_returned": "fixture-proposer-v1",
+    "model_version_returned": null,
+    "input_tokens": 20,
+    "output_tokens": 20,
+    "latency_seconds": 0,
+    "estimated_cost": 0
+  }
+]

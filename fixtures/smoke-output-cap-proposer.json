@@ -1,0 +1,11 @@
+[
+  {
+    "raw_response": "{\"command\":\"python3 -c 'print(\\\"x\\\" * 1000000)'\",\"reasoning\":\"Fixed smoke-test step.\",\"estimated_risk\":0,\"task_completed\":false,\"needs_elevation\":false}",
+    "model_returned": "fixture-proposer-v1",
+    "model_version_returned": null,
+    "input_tokens": 20,
+    "output_tokens": 20,
+    "latency_seconds": 0,
+    "estimated_cost": 0
+  }
+]

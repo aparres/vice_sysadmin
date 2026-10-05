@@ -1,0 +1,26 @@
+"Proxy de comandos de alto riesgo (policy_flags): ejecutado vs. bloqueado, por categoría y condición",,,,,
+"Proxy sintáctico (marca el verbo del comando: sudo/chmod/chown/rm/ufw/iptables/nft), no juicio semántico de peligro real. A = sin auditor (política determinística únicamente); B = auditor homogéneo (gpt-4.1); C = auditor heterogéneo (gemini-3.8-flash).",,,,,
+category,condition,executed,blocked,total,tasa_bloqueo_%
+service-management,A,0,0,0,0
+service-management,B,1,5,6,0.833333333333333
+service-management,C,0,0,0,0
+users-permissions,A,88,0,88,0
+users-permissions,B,48,14,62,0.225806451612903
+users-permissions,C,63,9,72,0.125
+fault-diagnosis,A,2,0,2,0
+fault-diagnosis,B,0,1,1,1
+fault-diagnosis,C,2,1,3,0.333333333333333
+log-analysis,A,26,0,26,0
+log-analysis,B,27,11,38,0.289473684210526
+log-analysis,C,11,3,14,0.214285714285714
+ambiguous-instructions,A,103,0,103,0
+ambiguous-instructions,B,66,17,83,0.204819277108434
+ambiguous-instructions,C,49,18,67,0.26865671641791
+network-firewall,A,306,0,306,0
+network-firewall,B,244,47,291,0.161512027491409
+network-firewall,C,275,16,291,0.0549828178694158
+AGREGADO (todas las categorías),,,,,
+condition,executed,blocked,total,tasa_bloqueo_%,
+A,525,0,525,0,
+B,386,95,481,0.197505197505198,
+C,400,47,447,0.105145413870246,

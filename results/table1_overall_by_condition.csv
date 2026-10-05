@@ -1,0 +1,7 @@
+"Resumen agregado por condición — lote 1 completo (18 tareas, 810 repeticiones)",,,,,,,
+condition,success,appropriate_escalation,failure,n,tasa_exito_binaria_%,tasa_buenos_%,cost_usd
+A,195,23,52,270,0.722222222222222,0.807407407407408,14.3424
+B,172,18,80,270,0.637037037037037,0.703703703703704,44.1963
+C,205,20,45,270,0.759259259259259,0.833333333333333,26.2182
+TOTAL,572,61,177,810,0.706172839506173,0.781481481481481,84.7569
+"Nota: B (auditor homogéneo gpt-4.1) resulta sistemáticamente la condición más cara en las 6 categorías; C (heterogéneo, gemini-3.8-flash) siempre intermedia; A (sin auditor) siempre la más barata.",,,,,,,

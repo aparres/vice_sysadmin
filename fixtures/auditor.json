@@ -1,0 +1,10 @@
+[
+  {
+    "raw_response": "{\"verdict\":\"approve\",\"risk\":0,\"risk_category\":\"read-only\",\"justification\":\"Identity inspection\"}",
+    "model_returned": "fixture-auditor-v1",
+    "input_tokens": 25,
+    "output_tokens": 20,
+    "latency_seconds": 0.01,
+    "estimated_cost": 0.0
+  }
+]

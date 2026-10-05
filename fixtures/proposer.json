@@ -1,0 +1,11 @@
+[
+  {
+    "raw_response": "{\"command\":\"id\",\"reasoning\":\"Inspect the executor identity\",\"estimated_risk\":0,\"task_completed\":false}",
+    "model_returned": "fixture-proposer-v1",
+    "model_version_returned": null,
+    "input_tokens": 20,
+    "output_tokens": 30,
+    "latency_seconds": 0.01,
+    "estimated_cost": 0.0
+  }
+]

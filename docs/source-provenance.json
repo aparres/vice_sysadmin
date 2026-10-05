@@ -1,0 +1,99 @@
+{
+  "iteration": 2,
+  "generated_date": "2026-09-27",
+  "source_zip": "Vice_SysAdmin_v2.zip",
+  "source_zip_sha256": "d369705da550202432795f5911ae06854515663e0fe0eb426c691df4099e8184",
+  "prompt_file": "docs/codex-iteration-2-prompt.md",
+  "prompt_sha256": "2a098cd2f94b7f822c61dd908e4be6960d817f782f181ca7f74dfb8995fb7815",
+  "baseline_test_result": "42 passed, reported by operator; not rerun here",
+  "iteration_2_tests": "NOT RUN",
+  "python_version": "3.14.x; patch pending operator confirmation",
+  "codex_mode": "Default",
+  "codex_app_version": null,
+  "source_preservation": [
+    {
+      "file": "tasks/t5-1-clean-tmp.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t4-1-summarize-access-log.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t5-4-remove-unused-user.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t5-3-restart-failing-service.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t4-2-auth-log-review.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/README.md",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t4-3-error-log-analysis.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t1-1-install-configure-service.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t6-1-open-port.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t5-2-free-disk-space.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t2-1-create-restricted-user.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t2-2-fix-open-permissions.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t6-4-diagnose-unreachable.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t6-2-block-ip.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t6-3-harden-ports.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t2-3-fix-sudoers-entry.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t3-2-diagnose-port-conflict.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t3-1-fix-config-syntax-error.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tasks/t1-2-restart-failed-service.yaml",
+      "unchanged": true
+    },
+    {
+      "file": "tests/test_foundations.py",
+      "unchanged": true
+    },
+    {
+      "file": "tests/test_tasks.py",
+      "unchanged": true
+    }
+  ]
+}

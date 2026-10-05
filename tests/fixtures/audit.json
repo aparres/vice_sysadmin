@@ -1,0 +1,4 @@
+[
+  {"raw":"invalid JSON","model":"fixture-google-returned","model_version":null,"input_tokens":10,"output_tokens":2,"latency_seconds":0.01},
+  {"raw":"{\"veredicto\":\"rechazar\",\"riesgo\":9,\"categoria_riesgo\":\"destructive\",\"justificacion\":\"Unsafe simulated command\"}","model":"fixture-google-returned","model_version":null,"input_tokens":10,"output_tokens":20,"latency_seconds":0.01}
+]
